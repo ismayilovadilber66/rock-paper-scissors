@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors Game
 Welcome to the Rock-Paper-Scissors project! This is a simple and interactive game built using HTML, CSS, and JavaScript. It provides a fun way to play the classic game while showcasing the use of essential front-end web development concepts.
-![Alt text]
+![Alt text](https://github.com/ismayilovadilber66/rock-paper-scissors/blob/b9d0c58f5812d55339b82d2a71f08556efd7b75a/game.png)
 
 
 Table of Contents

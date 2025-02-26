@@ -1,94 +1,102 @@
 # Rock-Paper-Scissors Game
+Welcome to the Rock-Paper-Scissors project! This is a simple and interactive game built using HTML, CSS, and JavaScript. It provides a fun way to play the classic game while showcasing the use of essential front-end web development concepts.
 
-Rock-Paper-Scissors layihəsinə xoş gəlmisiniz! Bu, HTML, CSS və JavaScript istifadə edərək qurulmuş sadə və interaktiv oyundur. Əsas veb inkişaf konsepsiyalarının istifadəsini nümayiş etdirərkən klassik oyunu oynamaq üçün əyləncəli bir yol təqdim edir.
 
-## Layihə haqqında
+Table of Contents
 
-Bu layihə Rock-Paper-Scissors oyununun əsas tətbiqidir və aşağıdakılarla tanışlığı artırmaq üçün nəzərdə tutulmuşdur:
+About the Project
 
-Funksiyalar, if bloklar və hadisələrin idarə edilməsi kimi JavaScript əsasları.
+Features
 
-Dinamik və həssas istifadəçi interfeysi yaratmaq üçün DOM manipulyasiyası.
+Technologies Used
 
-Seanslar üzrə oyun vəziyyətini və ya oyunçu xallarını saxlamaq üçün LocalStorage API.
+How It Works
 
-Oyun yeni başlayanlar üçün əlverişlidir və interaktiv veb proqramlarını başa düşmək üçün əla başlanğıc nöqtəsidir.
+Setup and Installation
 
-### Xüsusiyyətlər
+Usage
 
-Sadə və intuitiv istifadəçi interfeysi.
+Future Improvements
 
-Oyunçu və kompüter seçimləri haqqında real vaxtda rəy.
+About the Project
 
-Brauzerin LocalStorage-dən istifadə edərək oyunçunun xalını izləyir.
+This project is a basic implementation of the Rock-Paper-Scissors game, designed to enhance familiarity with:
 
-Müxtəlif cihazlarda optimal təcrübə üçün cavab verən dizayn.
+JavaScript fundamentals such as functions, conditionals, and event handling.
 
-Ədalətli oyunu təmin etmək üçün təsadüfi kompüter seçimləri.
+DOM manipulation to create a dynamic and responsive user interface.
 
-### İstifadə olunan Texnologiyalar
+LocalStorage API to save the game state or player scores across sessions.
 
-HTML: Veb səhifənin strukturu.
+The game is beginner-friendly and an excellent starting point for understanding interactive web applications.
 
-CSS: Cavab verən xüsusiyyətlər daxil olmaqla üslub və tərtibat dizaynı.
+Features
 
-JavaScript: Oyun məntiqi, DOM manipulyasiyası və LocalStorage inteqrasiyası.
+Simple and intuitive user interface.
 
-### Oyunun gedişatı
+Real-time feedback on player and computer choices.
 
-İstifadəçi Girişi: Oyunçu üç seçimdən birini seçir: Daş, Kağız və ya Qayçı.
+Keeps track of the player’s score using the browser's LocalStorage.
 
-Kompüter seçimi: Kompüter seçimi təsadüfi yaradılır.
+Randomized computer choices to ensure fair gameplay.
 
-Müqayisə: Aşağıdakı qaydalara əsasən qalibi müəyyən etmək üçün oyunçunun seçimi kompüterin seçimi ilə müqayisə edilir:
+Technologies Used
 
-Daş qayçı döyür
+HTML5: Structure of the web page.
 
-Qayçı Kağızı döyür
+CSS3: Styling and layout design, including responsive features.
 
-Kağız Rock döyür
+JavaScript: Game logic, DOM manipulation, and LocalStorage integration.
 
-Xal: Oyunçunun hesabı yenilənir və LocalStorage-də saxlanılır.
+How It Works
 
-Əlaqə: Oyun hər turun nəticəsi haqqında dərhal rəy verir.
+User Input: The player selects one of the three options: Rock, Paper, or Scissors.
 
-Layihəni yerli olaraq qurmaq üçün bu addımları yerinə yetirin:
+Computer Choice: The computer’s choice is randomly generated.
 
-Repozitoru klonlayın:
+Comparison: The player’s choice is compared with the computer’s to determine the winner based on the following rules:
 
-git clone https://github.com/ismayilovadilber66/rock-paper-scissors.git
+Rock beats Scissors
 
-### Layihəyəyə keçid:
+Scissors beats Paper
 
-cd-kağız-qayçı
+Paper beats Rock
 
-index.html faylını açın:
-Oyuna başlamaq üçün faylı seçdiyiniz veb brauzerdə açın.
+Scoring: The player's score is updated and saved in LocalStorage.
 
-Əlavə quraşdırma və ya asılılıq tələb olunmur.
+Feedback: The game provides immediate feedback on the result of each round.
 
-### Oyunun istifadəsi
+Setup and Installation
 
-Veb brauzerinizdə oyunu açın.
+Follow these steps to set up the project locally:
 
-Seçdiyiniz üzərinə klikləyin (Daş, Kağız və ya Qayçı).
+Open the index.html File:
+Open the file in your preferred web browser to start the game.
 
-Turun nəticələrinə və yenilənmiş xalınıza baxın.
+No additional installations or dependencies are required.
 
-Lazım gələrsə, oyunu sıfırlamaq üçün səhifəni yeniləyin (qeyd: LocalStorage səbəbiylə hesab davam edəcək).
+Usage
 
-### Gələcək təkmilləşdirmələr üçün bəzi fikirlər bunlardır:
+Open the game in your web browser.
 
-Hesabı silmək və oyunu yenidən başlamaq üçün sıfırlama düyməsini əlavə edin.
+Click on your choice (Rock, Paper, or Scissors).
 
-Daha cəlbedici təcrübə üçün əlavə mövzular və səs effektləri təqdim edin.
+View the result of the round and your updated score.
 
-Yerli multiplayer oyunu üçün iki oyunçu rejimi tətbiq edin.
+Refresh the page to reset the game if needed (note: score will persist due to LocalStorage).
 
-"Daş-Kağız-Qayçı-Kərtənkələ-Spock" kimi variantları daxil etmək üçün oyunu "Kərtənkələ" və "Spock" kimi daha çox seçimlə genişləndirin.
+Future Improvements
 
-İstifadəçi interfeysini təkmilləşdirmək üçün animasiyalar əlavə edin.
+Here are some ideas for future enhancements:
 
-### Bu layihə açıq mənbəlidir. İstifadə etmək, dəyişdirmək və paylaşmaqdan çekinmeyin.
+Add a reset button to clear the score and restart the game.
 
-Oynamaqdan həzz alın və onun inkişafınıza töhfə verməkdən çəkinməyin!
+Introduce additional themes and sound effects for a more engaging experience.
+
+Implement a two-player mode for local multiplayer gameplay.
+
+Expand the game with more choices like "Lizard" and "Spock" to include variations like "Rock-Paper-Scissors-Lizard-Spock."
+
+Add animations to enhance the user interface.
+
+Enjoy playing and feel free to contribute to its development!
